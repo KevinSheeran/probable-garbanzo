@@ -1,0 +1,12 @@
+server:
+  port: ${SERVER_PORT}
+
+com:
+    kevin:
+        jwt:
+            aws:
+                user-pool-id: ${USER_POOL_ID}
+                region: ${JWT_REGION}
+
+
+
